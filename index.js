@@ -1,6 +1,6 @@
 $(document).ready(function(){
     
-    var open = true;
+    var open = false;
     
     $("#openbtn").click(function(){
         if(!open) {
