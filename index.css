@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Montserrat, sans-serif;
 }
 
 a {
@@ -38,17 +39,14 @@ a {
     opacity: 0.87;
     display: inline-block;
     cursor: pointer;
-    transition: margin-left 0.3s ease, opacity 0.1s ease, color 0.3s ease;
+    transition: margin-left 0.3s ease, opacity 0.1s ease, color 0.3s ease, text-shadow 0.2s ease;
 /*    color: #bdc3c7;*/
     position: absolute;
 }
 
 #openbtn:hover {
     opacity: 1;
-}
-
-.sideItem {
-    
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 .sideItem p.title {
@@ -60,7 +58,7 @@ a {
 }
 
 .sideItem p {
-    font-family: Titillium;
+    font-family: Montserrat, sans-serif;
     color: #bdc3c7;
     font-size: 1.25em;
     opacity: 0.75;
@@ -81,4 +79,12 @@ a {
 
 .sideItem p a:hover {
     background-color: #192024;
+}
+
+h1 {
+    font-family: MHairline, sans-serif;
+    font-size: 5em;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 0.25em;
 }
