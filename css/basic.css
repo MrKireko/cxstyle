@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lato, sans-serif;
+}
+
+body {
+    background-color: #e0e0e0;
+}
+
+a, p, h1, h2, h3 {
+    text-decoration: none;
+    color: #212121;
+}
+
+#wrap {
+    display: inline-block;
+    width: 100%;
+}
+
+#sidewrap {
+    display: inline-block;
+    position: fixed;
+    z-index: 9998;
+    height: 100%;
+    width: 240px;
+    background-color: #212121;
+    margin-left: -245px;
+    transition: margin-left 0.3s ease;
+    overflow-x: hidden;
+}
+
+#openbtn {
+    z-index: 9999;
+    font-weight: 100;
+    font-size: 2em;
+    color: #143952;
+/*    margin-left: 190px;*/
+    margin-left: 0.2em;
+    padding: 0.1em;
+    opacity: 0.87;
+    display: inline-block;
+    cursor: pointer;
+    transition: margin-left 0.3s ease, opacity 0.1s ease, color 0.3s ease, text-shadow 0.2s ease;
+    position: fixed;
+    -webkit-transform: translateY(0);
+}
+
+#openbtn:hover {
+    opacity: 1;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.sideItem p.title {
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.5em;
+    padding-bottom: 0.3em;
+    opacity: 1;
+}
+
+.sideItem p {
+    font-family: MLight, sans-serif;
+    color: #9e9e9e;
+    font-size: 1.25em;
+    opacity: 1;
+    padding-left: 0.5em;
+}
+
+.sideItem p a {
+    display: inline-block;
+    padding: 0.2em;
+    padding-left: 1em;
+    width: 100%;
+    margin-left: -0.5em;
+    color: #9e9e9e;
+}
+
+.sideItem p a:active {
+    color: #5f8921;
+}
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 0.25em;
+}
+
+h2 {
+    font-family: MULight, sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+    margin-top: 0.25em;
+}
+
+h3 {
+    font-family: "Big John";
+    font-size: 3em;
+    display: inline-block;
+    margin-top: 0.25em;
+}
+
+h4 {
+    font-family: "Slim Joe";
+    font-size: 3em;
+    display: inline-block;
+    margin-top: 0.25em;
+}
+
+.serif {
+    font-family: Average, sans-serif;
+    font-size: 1em;
+}
+
+.serifalt {
+    font-family: Permian, sans-serif;
+    font-size: 1em;
+}
+
+.serifalt strong, .serifalt b {
+    font-family: PermianBold, sans-serif;
+    font-size: 1em;
+}
+
+.serifalt em, .serifalt i {
+    font-family: PermianItalic, sans-serif;
+    font-size: 1em;
+}
+
+.mono {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 1em;
+}

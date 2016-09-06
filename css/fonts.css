@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+@import url(https://fonts.googleapis.com/css?family=Average);
+@font-face {
+    font-family: MHairline;
+    src: url(../fonts/Montserrat-Hairline.otf);
+}
+@font-face {
+    font-family: MLight;
+    src: url(../fonts/Montserrat-Light.otf);
+}
+@font-face {
+    font-family: MULight;
+    src: url(../fonts/Montserrat-UltraLight.otf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.otf);
+}
+@font-face {
+    font-family: MBold;
+    src: url(../fonts/Montserrat-SemiBold.otf);
+}
+@font-face {
+    font-family: Permian;
+    src: url(../fonts/PermianSerifTypeface.otf);
+}
+@font-face {
+    font-family: PermianBold;
+    src: url(../fonts/PermianSerifTypeface-Bold.otf);
+}
+@font-face {
+    font-family: PermianItalic;
+    src: url(../fonts/PermianSerifTypeface-Italic.otf);
+}
+@font-face {
+    font-family: "Big John";
+    src: url(../fonts/Big-John.otf);
+}
+@font-face {
+    font-family: "Slim Joe";
+    src: url(../fonts/Slim-Joe.otf);
+}
